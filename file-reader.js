@@ -16,7 +16,7 @@ emitter.on("start reading",function(filePath){
 		}
 		else{
 		emitter.emit("print_content",data)
-	}
+	    }
 	})
 })
 emitter.on("print_content",function(data){

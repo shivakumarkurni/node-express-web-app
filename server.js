@@ -1,7 +1,10 @@
 var express=require("express");
 var app=express();
 var router=express.Router();
-
+var importData=require("./import")
+ //console.log(importData.wish("shiva"))
+// console.log(importData.display())
+console.log(importData)
 
 router.get("/",function(request,response){
    response.json({message:"Hello Hyderabad !!"})
